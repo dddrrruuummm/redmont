@@ -12,8 +12,14 @@ html {
 }
 
 body {
-  background: #f5f6ef;
-  color: #102c28;
+  background: #f4f1eb;
+  color: #16191f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, .font-serif {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 500;
 }
 
 * {
@@ -21,19 +27,19 @@ body {
 }
 
 ::selection {
-  background: #c7e36b;
-  color: #102c28;
+  background: #c7a36e;
+  color: #16191f;
 }
 
 .container-page {
-  width: min(1120px, calc(100% - 32px));
+  width: min(1240px, calc(100% - 40px));
   margin-inline: auto;
 }
 
 .eyebrow {
-  letter-spacing: 0.12em;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
-  font-size: 0.76rem;
+  font-size: 0.7rem;
   font-weight: 700;
 }
 
@@ -42,5 +48,5 @@ body {
 }
 
 .focus-ring:focus-visible {
-  box-shadow: 0 0 0 3px rgba(214, 87, 59, 0.28);
+  box-shadow: 0 0 0 3px rgba(199, 163, 110, 0.35);
 }
