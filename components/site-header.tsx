@@ -1,29 +1,4 @@
 import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
 import { navItems, site } from "@/lib/site";
-import { Button } from "@/components/ui/button";
-
-export function SiteHeader() {
-  return (
-    <header className="sticky top-0 z-50 border-b border-ink/10 bg-pearl/95 backdrop-blur">
-      <div className="container-page flex min-h-20 items-center justify-between gap-4">
-        <Link href="/" className="flex flex-col font-serif text-[1.55rem] leading-none tracking-wide text-ink">
-          <span>{site.name}</span>
-          <span className="mt-2 font-sans text-[0.58rem] font-bold tracking-[0.28em] text-wine">CAPITAL ASSET MANAGEMENT</span>
-        </Link>
-        <nav className="hidden items-center gap-8 text-xs font-bold uppercase tracking-[0.13em] text-ink/65 md:flex">
-          {navItems.map((item) => (
-            <Link key={item.href} href={item.href} className="transition hover:text-wine">
-              {item.label}
-            </Link>
-          ))}
-        </nav>
-        <Button href="/contact" className="hidden md:inline-flex">
-          Private Inquiry
-        </Button>
-        <Button href="/contact" variant="secondary" className="md:hidden">
-          Contact
-        </Button>
-      </div>
-    </header>
-  );
-}
+export function SiteHeader(){return <header className="relative z-50 border-b border-ink/15 bg-[#f5f2ec]"><div className="container-page grid min-h-[76px] grid-cols-[1fr_auto] items-center md:grid-cols-[15rem_1fr_auto]"><Link href="/" className="text-2xl tracking-[0.16em] text-ink">{site.name}</Link><nav className="hidden justify-center gap-8 text-[0.65rem] font-bold uppercase tracking-[0.16em] text-ink/60 md:flex">{navItems.slice(1,4).map(item=><Link key={item.href} href={item.href} className="transition hover:text-ink">{item.label}</Link>)}</nav><Link href="/contact" className="inline-flex items-center gap-2 border-l border-ink/15 pl-5 text-[0.65rem] font-bold uppercase tracking-[0.16em] text-ink">Start a project <ArrowUpRight size={15}/></Link></div></header>;}
