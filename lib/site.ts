@@ -1,4 +1,4 @@
-export const site={name:"REDMONT",legalName:"REDMONT LLC",url:"https://redmont.fit",email:"info@redmont.fit",phone:"+1 (846) 558-4655",whatsapp:"+18465584655",address:{city:"Santaquin",state:"UT",country:"US"}};
+export const site={name:"REDMONT",legalName:"REDMONT LLC",url:"https://redmont.fit",email:"info@redmont.fit",whatsapp:"+18465584655",address:{street:"310 S Center St",city:"Santaquin",state:"UT",postalCode:"84655",country:"US",formatted:"310 S Center St, Santaquin, UT 84655",mapsUrl:"https://www.google.com/maps/search/?api=1&query=310%20S%20Center%20St%2C%20Santaquin%2C%20UT%2084655"}};
 export const navItems=[{label:"Home",href:"/"},{label:"About",href:"/about"},{label:"Services",href:"/services"},{label:"Spaces",href:"/showcase"},{label:"Contact",href:"/contact"}];
 export const products=[
 {name:"Hospitality Interiors",category:"Hotels",image:"/images/hospitality.png",description:"Guest rooms, lobbies and shared spaces designed around experience and operational needs.",tags:["Hospitality","Guest Experience"]},

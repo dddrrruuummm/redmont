@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowDown, ArrowUpRight, Mail, MessageCircle } from "lucide-react";
+import { ArrowDown, ArrowUpRight, Mail, MapPin, MessageCircle } from "lucide-react";
 import { products, services, site } from "@/lib/site";
 
 export function Hero() {
@@ -86,7 +86,7 @@ export function ProcessSection() {
 export function ContactSection() {
   return (
     <section className="bg-[#ece8e0] py-24 sm:py-32"><div className="container-page"><div className="grid gap-12 lg:grid-cols-[1.1fr_.9fr]">
-      <div><p className="section-index">Project Inquiry</p><h1 className="mt-7 max-w-3xl text-[clamp(3.2rem,7vw,7.5rem)] leading-[0.88]">What could this space become?</h1><p className="mt-8 max-w-xl text-lg leading-8 text-ink/65">Tell us where you are starting and what success should feel like. We will help define the next useful step.</p><div className="mt-10 flex flex-col gap-4 text-sm font-bold sm:flex-row sm:gap-8"><a href={`mailto:${site.email}`} className="inline-flex items-center gap-2"><Mail size={17} />{site.email}</a><a href={`https://wa.me/${site.whatsapp.replace("+","")}`} className="inline-flex items-center gap-2"><MessageCircle size={17} />WhatsApp</a></div></div>
+      <div><p className="section-index">Project Inquiry</p><h1 className="mt-7 max-w-3xl text-[clamp(3.2rem,7vw,7.5rem)] leading-[0.88]">What could this space become?</h1><p className="mt-8 max-w-xl text-lg leading-8 text-ink/65">Tell us where you are starting and what success should feel like. We will help define the next useful step.</p><div className="mt-10 flex flex-col gap-4 text-sm font-bold"><a href={`mailto:${site.email}`} className="inline-flex items-center gap-2"><Mail size={17} />{site.email}</a><a href={site.address.mapsUrl} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2"><MapPin size={17} />{site.address.formatted}</a><a href={`https://wa.me/${site.whatsapp.replace("+","")}`} className="inline-flex items-center gap-2"><MessageCircle size={17} />WhatsApp</a></div></div>
       <form className="border-t-2 border-ink pt-7"><label className="form-line">Name<input aria-label="Name" /></label><label className="form-line">Email<input aria-label="Email" type="email" /></label><label className="form-line">Project type<input aria-label="Project type" /></label><label className="form-line items-start">Tell us about the space<textarea aria-label="Project details" rows={4} /></label><Link href={`mailto:${site.email}?subject=REDMONT%20Project%20Inquiry`} className="mt-8 flex w-full items-center justify-between bg-ink px-6 py-5 text-xs font-bold uppercase tracking-[0.16em] text-white transition hover:bg-wine">Send project inquiry <ArrowUpRight size={17} /></Link></form>
     </div></div></section>
   );
