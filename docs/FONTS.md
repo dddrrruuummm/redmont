@@ -1,0 +1,1 @@
+DM Sans and Newsreader are distributed under SIL Open Font License 1.1. Sources: https://github.com/googlefonts/dm-fonts and https://github.com/productiontype/Newsreader. Self-hosted TTF assets from fonts.gstatic.com. See OFL license files in public/fonts.

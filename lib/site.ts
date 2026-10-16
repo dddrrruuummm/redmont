@@ -1,5 +1,5 @@
 export const site={name:"REDMONT",legalName:"REDMONT LLC",url:"https://redmont.fit",email:"info@redmont.fit",phone:"+1 512-684-7738",phoneHref:"+15126847738",whatsapp:"+18465584655",address:{street:"310 S Center St",city:"Santaquin",state:"UT",postalCode:"84655",country:"US",formatted:"310 S Center St, Santaquin, UT 84655",mapsUrl:"https://www.google.com/maps/search/?api=1&query=310%20S%20Center%20St%2C%20Santaquin%2C%20UT%2084655"}};
-export const navItems=[{label:"Home",href:"/"},{label:"About",href:"/about"},{label:"Services",href:"/services"},{label:"Spaces",href:"/showcase"},{label:"Contact",href:"/contact"}];
+export const navItems=[{label:"Home",href:"/"},{label:"About",href:"/about"},{label:"Services",href:"/services"},{label:"Spaces",href:"/showcase"},{label:"Furniture & Decor",href:"/furniture"},{label:"Contact",href:"/contact"}];
 export const products=[
 {name:"Hospitality Interiors",category:"Hotels",image:"/images/hospitality.png",description:"Guest rooms, lobbies and shared spaces designed around experience and operational needs.",tags:["Hospitality","Guest Experience"]},
 {name:"Commercial Renovation",category:"Workplaces",image:"/images/commercial.png",description:"Workspaces, reception areas and meeting rooms shaped for daily business use.",tags:["Commercial","Workplace"]},
@@ -11,4 +11,4 @@ export const products=[
 {name:"Wasatch Kitchen",category:"Residential",image:"/images/kitchen.png",description:"A light-filled kitchen renovation centered on natural oak, expressive stone and mountain views.",tags:["Kitchen","Residential"]},
 {name:"Workplace Commons",category:"Commercial",image:"/images/workplace-lounge.png",description:"A flexible reception and collaboration space with integrated planting and acoustic timber.",tags:["Office","Workplace"]},
 {name:"Quiet Ritual Spa",category:"Wellness",image:"/images/spa.png",description:"A restorative treatment environment composed with limestone, linen and soft daylight.",tags:["Spa","Wellness"]}];
-export const services=["Interior design and scope planning","Materials and furniture procurement","In-house construction coordination","Hospitality renovation","Commercial workplace renovation","Residential renovation"];
+export const services=["Furniture and decorative accessories sales","Interior design and scope planning","Materials and furniture procurement","In-house construction coordination","Hospitality renovation","Commercial workplace renovation","Residential renovation"];

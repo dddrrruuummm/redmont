@@ -1,0 +1,83 @@
+/* Furniture and decor extend REDMONT's photographic, room-led identity. */
+.furn-cover{padding-top:58px}
+.furn-cover-copy{display:grid;grid-template-columns:1.3fr 1fr;align-items:end;gap:8vw;padding-bottom:48px}
+.furn-cover h1{font-size:clamp(44px,5vw,72px);line-height:1.03;letter-spacing:-.035em;font-weight:500;margin:0}
+.furn-cover-copy p{font-size:18px;line-height:1.75;max-width:48ch;margin:0 0 26px}
+.furn-cover-photo{position:relative;height:min(62vw,590px);background:#e9e9e4}
+.furn-cover-photo img{object-fit:cover;object-position:50% 60%}
+.furn-range{padding:90px 0 65px}
+.furn-range-heading{display:grid;grid-template-columns:1fr 1fr;gap:8vw;margin-bottom:45px}
+.furn-range-heading h2,.furn-order>h2,.furn-related>h2{font-size:clamp(32px,3.5vw,48px);line-height:1.1;letter-spacing:-.025em;font-weight:500;margin:0}
+.furn-range-heading p{font-size:18px;line-height:1.75;max-width:52ch;margin:0}
+.furn-controls{display:flex;justify-content:space-between;align-items:end;gap:30px;scroll-margin-top:25px}
+.furn-filters{display:flex;flex-wrap:wrap;gap:8px}
+.furn-filters button{border:0;min-height:46px;padding:12px 17px;background:#f0f0ec;cursor:pointer;font-size:15px;color:#222322}
+.furn-filters button[aria-pressed=true]{background:#222322;color:#fff}
+.furn-filters button:hover{background:#deded8}
+.furn-filters button[aria-pressed=true]:hover{background:#44443f}
+.furn-controls label{font-size:14px;display:grid;gap:8px;min-width:230px}
+.furn-controls input{font:inherit;padding:12px 14px;border:1px solid #a7a7a0;background:#fff;color:#222;min-height:46px;width:100%;border-radius:0}
+.furn-count{font-size:14px;margin:27px 0 20px}
+.furn-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:48px 28px}
+.furn-photo{display:block;position:relative;aspect-ratio:4/5;background:#eeeee9;overflow:hidden}
+.furn-photo img{object-fit:cover;transition:transform 350ms ease-out}
+.furn-photo:hover img{transform:scale(1.025)}
+.furn-grid .furn-category{font-size:14px;margin:20px 0 8px}
+.furn-grid h2{font-size:26px;line-height:1.2;font-weight:500;margin:0 0 12px}
+.furn-grid h2 a{text-decoration:none}
+.furn-grid article>p:not(.furn-category){font-size:16px;line-height:1.7;margin:0 0 14px;max-width:45ch}
+.furn-view{display:inline-flex;gap:20px;font-size:15px;min-height:44px;align-items:center;text-decoration:none}
+.furn-view:hover{text-decoration:underline}
+.furn-empty{background:#f0f0ec;padding:35px}
+.furn-empty h2{font-size:28px;margin:0 0 15px}
+.furn-empty p{margin-bottom:22px}
+.furn-order{padding:65px 0 95px;display:grid;grid-template-columns:1fr 1fr;gap:8vw}
+.furn-order article{margin:0 0 30px}
+.furn-order h3{font-size:23px;font-weight:500;line-height:1.2;margin:0 0 10px}
+.furn-order p{font-size:17px;line-height:1.7;margin:0;max-width:55ch}
+.furn-breadcrumb{display:flex;flex-wrap:wrap;gap:10px;font-size:14px;line-height:1.6;margin:30px 0}
+.furn-detail-main{display:grid;grid-template-columns:1.2fr 1fr;gap:6vw;align-items:start}
+.furn-detail-photo{position:relative;aspect-ratio:4/5;background:#eee}
+.furn-detail-photo img{object-fit:contain}
+.furn-detail-copy{padding:30px 0}
+.furn-detail-copy h1{font-size:clamp(38px,4vw,58px);font-weight:500;line-height:1.08;letter-spacing:-.025em;margin:12px 0 25px}
+.furn-detail-copy h2{font-size:25px;font-weight:500;line-height:1.25;margin:35px 0 20px}
+.furn-detail-copy p,.furn-detail-copy li{font-size:17px;line-height:1.75}
+.furn-detail-copy>p:first-child{font-size:14px;margin:0}
+.furn-detail-copy ul{list-style:disc;padding-left:21px;margin:0 0 25px}
+.furn-detail-copy>.action{margin:25px 0 12px}
+.furn-detail-copy>.furn-view{display:flex}
+.furn-related{padding:90px 0}
+.furn-related>div{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin-top:30px}
+.furn-related>div>a{text-decoration:none}
+.furn-related h3{font-size:24px;font-weight:500;line-height:1.25;margin:20px 0 0}
+.red-furniture-home{padding:75px 0;background:#efefea}
+.red-furniture-heading{display:grid;grid-template-columns:1fr 1fr;gap:8vw;margin-bottom:35px}
+.red-furniture-heading h2{font-size:clamp(36px,4vw,58px);font-weight:500;line-height:1.08;letter-spacing:-.025em;margin:0}
+.red-furniture-heading p{font-size:18px;line-height:1.7;margin:0 0 20px;max-width:48ch}
+.red-furniture-preview{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:23px}
+.red-furniture-preview>a{text-decoration:none}
+.red-furniture-preview .furn-photo{aspect-ratio:4/5}
+.red-furniture-preview h3{font-size:22px;line-height:1.25;font-weight:500;margin:18px 0 0}
+.red-header .container-page>nav{gap:27px}
+@media(max-width:1000px){
+.furn-controls{display:grid;align-items:start;gap:22px}.furn-controls label{max-width:370px}
+.furn-grid{grid-template-columns:1fr 1fr}.furn-cover h1{font-size:54px}
+.red-furniture-preview{grid-template-columns:1fr 1fr;gap:30px 22px}.red-header .container-page>nav{gap:19px}
+}
+@media(max-width:700px){
+.furn-cover{padding-top:32px}.furn-cover-copy,.furn-range-heading,.furn-order,.furn-detail-main,.red-furniture-heading{grid-template-columns:1fr;gap:26px}
+.furn-cover h1{font-size:44px}.furn-cover-copy{padding-bottom:30px}.furn-cover-copy p,.furn-range-heading p,.red-furniture-heading p{font-size:17px}
+.furn-cover-photo{height:330px}.furn-range{padding:50px 0 25px}.furn-range-heading{margin-bottom:28px}
+.furn-filters{gap:7px}.furn-filters button{font-size:14px;padding:11px 13px}
+.furn-grid{gap:34px 20px}.furn-grid h2{font-size:23px}.furn-grid article>p:not(.furn-category){font-size:15px}
+.furn-order{padding:40px 0 55px}.furn-order>h2{margin-bottom:3px}.furn-order article{margin-bottom:25px}
+.furn-detail-copy{padding:0}.furn-detail-photo{aspect-ratio:1/1}.furn-detail-copy h1{font-size:39px}.furn-related{padding:55px 0}
+.furn-related>div{grid-template-columns:1fr;gap:30px}.furn-related .furn-photo{aspect-ratio:4/3}
+.red-furniture-home{padding:45px 0}.red-furniture-preview h3{font-size:20px}
+}
+@media(max-width:480px){.furn-grid{grid-template-columns:1fr}.furn-photo{aspect-ratio:4/4.4}.furn-controls label{max-width:none}.red-furniture-preview{gap:25px 15px}.red-furniture-preview h3{font-size:18px}}
+@media(prefers-reduced-motion:reduce){.furn-photo img{transition:none}.furn-photo:hover img{transform:none}}
+
+
+.red-service-actions{display:flex;align-items:center;flex-wrap:wrap;gap:25px}

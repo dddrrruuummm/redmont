@@ -1,0 +1,210 @@
+[
+  {
+    "file": "public/photos/studio-room.webp",
+    "source": "https://www.pexels.com/photo/19608777/",
+    "download": "https://images.pexels.com/photos/19608777/pexels-photo-19608777.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Category/editorial scene, not company facilities, team, completed work, or verified inventory."
+  },
+  {
+    "file": "public/photos/living-detail.webp",
+    "source": "https://www.pexels.com/photo/5824901/",
+    "download": "https://images.pexels.com/photos/5824901/pexels-photo-5824901.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Category/editorial scene, not company facilities, team, completed work, or verified inventory."
+  },
+  {
+    "file": "public/photos/modern-home.webp",
+    "source": "https://www.pexels.com/photo/5179534/",
+    "download": "https://images.pexels.com/photos/5179534/pexels-photo-5179534.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Category/editorial scene, not company facilities, team, completed work, or verified inventory."
+  },
+  {
+    "file": "public/gallery/guest-room.webp",
+    "title": "Guest room proportions",
+    "source": "https://www.pexels.com/photo/hotel-bedroom-interior-design-6394710/",
+    "download": "https://images.pexels.com/photos/6394710/pexels-photo-6394710.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "Furniture, circulation, and a quieter place to stay."
+  },
+  {
+    "file": "public/gallery/restaurant.webp",
+    "title": "A welcoming dining room",
+    "source": "https://www.pexels.com/photo/interior-design-of-the-hotel-restaurant-16985196/",
+    "download": "https://images.pexels.com/photos/16985196/pexels-photo-16985196.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "Lighting and furniture that shape a shared space."
+  },
+  {
+    "file": "public/gallery/hotel-details.webp",
+    "title": "Bedroom details",
+    "source": "https://www.pexels.com/photo/interior-of-a-hotel-room-8082564/",
+    "download": "https://images.pexels.com/photos/8082564/pexels-photo-8082564.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "Materials and furnishings considered together."
+  },
+  {
+    "file": "public/gallery/kitchen.webp",
+    "title": "The working kitchen",
+    "source": "https://www.pexels.com/photo/modern-kitchen-interior-design-10827396/",
+    "download": "https://images.pexels.com/photos/10827396/pexels-photo-10827396.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "Cabinetry, surfaces, and room to move."
+  },
+  {
+    "file": "public/gallery/reception.webp",
+    "title": "A first impression",
+    "source": "https://www.pexels.com/photo/modern-reception-area-in-office-interior-design-34823913/",
+    "download": "https://images.pexels.com/photos/34823913/pexels-photo-34823913.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "A reception environment organized around arrival."
+  },
+  {
+    "file": "public/gallery/dining-living.webp",
+    "title": "Connected living spaces",
+    "source": "https://www.pexels.com/photo/dining-room-and-bedroom-interior-in-light-house-7046007/",
+    "download": "https://images.pexels.com/photos/7046007/pexels-photo-7046007.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "A transition between rooms, functions, and finishes."
+  },
+  {
+    "file": "public/gallery/workplace.webp",
+    "title": "The workplace commons",
+    "source": "https://www.pexels.com/photo/modern-office-with-kitchenette-5511086/",
+    "download": "https://images.pexels.com/photos/5511086/pexels-photo-5511086.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "Shared amenities as part of the working day."
+  },
+  {
+    "file": "public/gallery/bathroom.webp",
+    "title": "A quieter bathroom",
+    "source": "https://www.pexels.com/photo/modern-bathroom-interior-with-freestanding-bathtub-6207943/",
+    "download": "https://images.pexels.com/photos/6207943/pexels-photo-6207943.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "license": "https://www.pexels.com/license/",
+    "retrieved": "2026-10-16",
+    "use": "Editorial category demonstration. Not claimed company products, stock, staff, or completed projects.",
+    "generation": "none; real source photography",
+    "subject": "Simple forms, balanced light, and tactile finishes."
+  },
+  {
+    "id": "living-room",
+    "pexelsId": 6585598,
+    "source": "https://www.pexels.com/photo/cozy-sofa-and-table-with-chairs-in-contemporary-living-room-6585598/",
+    "file": "public/furniture/living-room.webp",
+    "license": "https://www.pexels.com/license/",
+    "use": "Commercial category photography. Not evidence of owned inventory, projects or manufacturer endorsement."
+  },
+  {
+    "id": "lounge-chair",
+    "pexelsId": 5490337,
+    "source": "https://www.pexels.com/photo/soft-armchair-near-side-table-in-room-5490337/",
+    "file": "public/furniture/lounge-chair.webp",
+    "license": "https://www.pexels.com/license/",
+    "use": "Commercial category photography. Not evidence of owned inventory, projects or manufacturer endorsement."
+  },
+  {
+    "id": "dining",
+    "pexelsId": 4769472,
+    "source": "https://www.pexels.com/photo/white-and-brown-wooden-dining-table-and-chairs-4769472/",
+    "file": "public/furniture/dining.webp",
+    "license": "https://www.pexels.com/license/",
+    "use": "Commercial category photography. Not evidence of owned inventory, projects or manufacturer endorsement."
+  },
+  {
+    "id": "sideboard",
+    "pexelsId": 7195582,
+    "source": "https://www.pexels.com/photo/elegant-wooden-cabinet-with-drawers-7195582/",
+    "file": "public/furniture/sideboard.webp",
+    "license": "https://www.pexels.com/license/",
+    "use": "Commercial category photography. Not evidence of owned inventory, projects or manufacturer endorsement."
+  },
+  {
+    "id": "mirror",
+    "pexelsId": 8834621,
+    "source": "https://www.pexels.com/photo/wooden-furniture-at-home-8834621/",
+    "file": "public/furniture/mirror.webp",
+    "license": "https://www.pexels.com/license/",
+    "use": "Commercial category photography. Not evidence of owned inventory, projects or manufacturer endorsement."
+  },
+  {
+    "id": "ceramics",
+    "pexelsId": 9565784,
+    "source": "https://www.pexels.com/photo/a-white-ceramic-vase-on-the-bedside-table-9565784/",
+    "file": "public/furniture/ceramics.webp",
+    "license": "https://www.pexels.com/license/",
+    "use": "Commercial category photography. Not evidence of owned inventory, projects or manufacturer endorsement."
+  },
+  {
+    "id": "table-lamp",
+    "pexelsId": 14380620,
+    "source": "https://www.pexels.com/photo/electric-lamps-and-mirror-on-table-14380620/",
+    "file": "public/furniture/table-lamp.webp",
+    "license": "https://www.pexels.com/license/",
+    "use": "Commercial category photography. Not evidence of owned inventory, projects or manufacturer endorsement."
+  },
+  {
+    "id": "textiles",
+    "pexelsId": 9990135,
+    "source": "https://www.pexels.com/photo/carpet-and-cushions-on-the-floor-9990135/",
+    "file": "public/furniture/textiles.webp",
+    "license": "https://www.pexels.com/license/",
+    "use": "Commercial category photography. Not evidence of owned inventory, projects or manufacturer endorsement."
+  },
+  {
+    "id": "accent-seating",
+    "pexelsId": 11112727,
+    "source": "https://www.pexels.com/photo/close-up-of-a-single-sofa-11112727/",
+    "file": "public/furniture/accent-seating.webp",
+    "license": "https://www.pexels.com/license/",
+    "use": "Commercial category photography. Not evidence of owned inventory, projects or manufacturer endorsement."
+  },
+  {
+    "id": "desk",
+    "pexelsId": 18671127,
+    "source": "https://www.pexels.com/photo/armchair-and-desk-18671127/",
+    "file": "public/furniture/desk.webp",
+    "license": "https://www.pexels.com/license/",
+    "use": "Commercial category photography. Not evidence of owned inventory, projects or manufacturer endorsement."
+  },
+  {
+    "id": "decorative-vases",
+    "pexelsId": 6952339,
+    "source": "https://www.pexels.com/photo/flowers-in-vases-and-lamp-6952339/",
+    "file": "public/furniture/decorative-vases.webp",
+    "license": "https://www.pexels.com/license/",
+    "use": "Commercial category photography. Not evidence of owned inventory, projects or manufacturer endorsement."
+  },
+  {
+    "id": "side-table",
+    "pexelsId": 6606000,
+    "source": "https://www.pexels.com/photo/a-wooden-round-seat-beside-a-white-table-with-a-leafy-plant-in-a-vase-6606000/",
+    "file": "public/furniture/side-table.webp",
+    "license": "https://www.pexels.com/license/",
+    "use": "Commercial category photography. Not evidence of owned inventory, projects or manufacturer endorsement."
+  }
+]
